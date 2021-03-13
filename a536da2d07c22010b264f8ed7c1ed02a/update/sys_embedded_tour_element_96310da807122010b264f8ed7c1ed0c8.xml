@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_element">
+    <sys_embedded_tour_element action="INSERT_OR_UPDATE">
+        <cell_edit/>
+        <cell_types/>
+        <col/>
+        <cxs_results/>
+        <element_type>textbox</element_type>
+        <field>player</field>
+        <field_action/>
+        <field_header/>
+        <filters/>
+        <form_buttons>additional_actions</form_buttons>
+        <form_element>field</form_element>
+        <form_section/>
+        <frameset>nav_filter</frameset>
+        <list_element>ui_action</list_element>
+        <list_header/>
+        <manual_css/>
+        <name>sys_display.x_297381_fffun_now_mind_game</name>
+        <record_id/>
+        <related_field/>
+        <related_links/>
+        <related_list_element>ui_action</related_list_element>
+        <related_lists/>
+        <related_table/>
+        <row/>
+        <sys_class_name>sys_embedded_tour_element</sys_class_name>
+        <sys_created_by>mdelaunay</sys_created_by>
+        <sys_created_on>2021-02-09 17:43:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>96310da807122010b264f8ed7c1ed0c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_display.x_297381_fffun_now_mind_game</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="FFFun Now" source="x_297381_fffun_now">a536da2d07c22010b264f8ed7c1ed02a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FFFun Now">a536da2d07c22010b264f8ed7c1ed02a</sys_scope>
+        <sys_update_name>sys_embedded_tour_element_96310da807122010b264f8ed7c1ed0c8</sys_update_name>
+        <sys_updated_by>mdelaunay</sys_updated_by>
+        <sys_updated_on>2021-02-09 17:43:58</sys_updated_on>
+        <table>x_297381_fffun_now_mind_game</table>
+        <type>form</type>
+        <ui_action/>
+    </sys_embedded_tour_element>
+</record_update>

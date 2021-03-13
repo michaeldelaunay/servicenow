@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_list_control">
+    <sys_ui_list_control action="DELETE">
+        <columns_condition/>
+        <disable_nlq>false</disable_nlq>
+        <edit_condition/>
+        <edit_default_filter/>
+        <edit_roles/>
+        <empty_condition/>
+        <filter_condition/>
+        <filter_roles/>
+        <hierarchical_lists>false</hierarchical_lists>
+        <label/>
+        <link_condition/>
+        <link_roles/>
+        <list_edit_insert_row>false</list_edit_insert_row>
+        <list_edit_ref_qual_tag/>
+        <list_edit_type/>
+        <name>x_297381_fffun_now_mind_guess</name>
+        <new_condition/>
+        <new_roles/>
+        <omit_columns_if_empty>false</omit_columns_if_empty>
+        <omit_count>false</omit_count>
+        <omit_count_views>false</omit_count_views>
+        <omit_count_views_list/>
+        <omit_drilldown_link>false</omit_drilldown_link>
+        <omit_edit_button>true</omit_edit_button>
+        <omit_filters>false</omit_filters>
+        <omit_if_empty>false</omit_if_empty>
+        <omit_links>false</omit_links>
+        <omit_new_button>true</omit_new_button>
+        <related_list/>
+        <sys_class_name>sys_ui_list_control</sys_class_name>
+        <sys_created_by>mdelaunay</sys_created_by>
+        <sys_created_on>2021-02-01 18:01:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1e88ffb507862410b264f8ed7c1ed01e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_297381_fffun_now_mind_guess</sys_name>
+        <sys_overrides display_value="">global</sys_overrides>
+        <sys_package display_value="FFFun Now" source="x_297381_fffun_now">a536da2d07c22010b264f8ed7c1ed02a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FFFun Now">a536da2d07c22010b264f8ed7c1ed02a</sys_scope>
+        <sys_update_name>sys_ui_list_control_1e88ffb507862410b264f8ed7c1ed01e</sys_update_name>
+        <sys_updated_by>mdelaunay</sys_updated_by>
+        <sys_updated_on>2021-02-01 18:01:42</sys_updated_on>
+    </sys_ui_list_control>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="FFFun Now">a536da2d07c22010b264f8ed7c1ed02a</application>
+        <file_path/>
+        <instance_id>b9fac77edbad77840b9d21c40596191a</instance_id>
+        <instance_name>dev86867</instance_name>
+        <name>sys_ui_list_control_1e88ffb507862410b264f8ed7c1ed01e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_list_control"><sys_ui_list_control action="INSERT_OR_UPDATE"><columns_condition/><disable_nlq>false</disable_nlq><edit_condition/><edit_default_filter/><edit_roles/><empty_condition/><filter_condition/><filter_roles/><hierarchical_lists>false</hierarchical_lists><label/><link_condition/><link_roles/><list_edit_insert_row>false</list_edit_insert_row><list_edit_ref_qual_tag/><list_edit_type/><name>x_297381_fffun_now_mind_guess</name><new_condition/><new_roles/><omit_columns_if_empty>false</omit_columns_if_empty><omit_count>false</omit_count><omit_count_views>false</omit_count_views><omit_count_views_list/><omit_drilldown_link>false</omit_drilldown_link><omit_edit_button>true</omit_edit_button><omit_filters>false</omit_filters><omit_if_empty>false</omit_if_empty><omit_links>false</omit_links><omit_new_button>true</omit_new_button><related_list/><sys_class_name>sys_ui_list_control</sys_class_name><sys_created_by>mdelaunay</sys_created_by><sys_created_on>2021-02-01 18:01:42</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1e88ffb507862410b264f8ed7c1ed01e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_297381_fffun_now_mind_guess</sys_name><sys_overrides display_value="">global</sys_overrides><sys_package display_value="FFFun Now" source="x_297381_fffun_now">a536da2d07c22010b264f8ed7c1ed02a</sys_package><sys_policy/><sys_scope display_value="FFFun Now">a536da2d07c22010b264f8ed7c1ed02a</sys_scope><sys_update_name>sys_ui_list_control_1e88ffb507862410b264f8ed7c1ed01e</sys_update_name><sys_updated_by>mdelaunay</sys_updated_by><sys_updated_on>2021-02-01 18:01:42</sys_updated_on></sys_ui_list_control></record_update>]]></payload>
+        <payload_hash>-1541704717</payload_hash>
+        <record_name>x_297381_fffun_now_mind_guess</record_name>
+        <reverted_from/>
+        <source>2936da2d07c22010b264f8ed7c1ed02c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>mdelaunay</sys_created_by>
+        <sys_created_on>2021-02-01 18:01:42</sys_created_on>
+        <sys_id>40987bb507862410b264f8ed7c1ed045</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1775ec1e8ee0000001</sys_recorded_at>
+        <sys_updated_by>mdelaunay</sys_updated_by>
+        <sys_updated_on>2021-02-01 18:01:42</sys_updated_on>
+        <type>List Control</type>
+        <update_guid>88987bb5268624106bdc4a6b6670c344</update_guid>
+        <update_guid_history>88987bb5268624106bdc4a6b6670c344:-1541704717</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>mdelaunay</sys_created_by>
+        <sys_created_on>2021-02-01 18:05:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list_control">sys_ui_list_control</sys_db_object>
+        <sys_id>47a55373f29e45feacdca44783f1ce49</sys_id>
+        <sys_metadata>1e88ffb507862410b264f8ed7c1ed01e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_297381_fffun_now_mind_guess</sys_name>
+        <sys_package display_value="FFFun Now" source="x_297381_fffun_now">a536da2d07c22010b264f8ed7c1ed02a</sys_package>
+        <sys_parent display_value="Essai">31f992a907862010b264f8ed7c1ed0e9</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="FFFun Now">a536da2d07c22010b264f8ed7c1ed02a</sys_scope>
+        <sys_scope_delete display_value="">06048c046bfa4e90814bf828e698fb90</sys_scope_delete>
+        <sys_update_name>sys_ui_list_control_1e88ffb507862410b264f8ed7c1ed01e</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_control_1e88ffb507862410b264f8ed7c1ed01e">40987bb507862410b264f8ed7c1ed045</sys_update_version>
+        <sys_updated_by>mdelaunay</sys_updated_by>
+        <sys_updated_on>2021-02-01 18:05:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

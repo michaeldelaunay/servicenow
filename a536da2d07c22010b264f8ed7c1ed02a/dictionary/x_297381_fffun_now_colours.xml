@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Couleurs" max_length="40" name="x_297381_fffun_now_colours" sizeclass="0" type="collection">
+        <element choice="1" label="Colour" max_length="16" name="colour" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Red" sequence="0" value="red"/>
+                <element inactive_on_update="false" label="Rouge" language="fr" sequence="0" value="red"/>
+                <element inactive_on_update="false" label="Bleu" language="fr" sequence="1" value="blue"/>
+                <element inactive_on_update="false" label="Blue" sequence="1" value="blue"/>
+                <element inactive_on_update="false" label="Green" sequence="2" value="green"/>
+                <element inactive_on_update="false" label="Vert" language="fr" sequence="2" value="green"/>
+                <element inactive_on_update="false" label="Jaune" language="fr" sequence="3" value="yellow"/>
+                <element inactive_on_update="false" label="Yellow" sequence="3" value="yellow"/>
+                <element inactive_on_update="false" label="Orange" language="fr" sequence="4" value="orange"/>
+                <element inactive_on_update="false" label="Orange" sequence="4" value="orange"/>
+                <element inactive_on_update="false" label="Pink" sequence="5" value="pink"/>
+                <element inactive_on_update="false" label="Rose" language="fr" sequence="5" value="pink"/>
+                <element inactive_on_update="false" label="Grey" sequence="6" value="grey"/>
+                <element inactive_on_update="false" label="Gris" language="fr" sequence="6" value="grey"/>
+                <element inactive_on_update="false" label="Purple" sequence="7" value="purple"/>
+                <element inactive_on_update="false" label="Violet" language="fr" sequence="7" value="purple"/>
+            </choice>
+        </element>
+    </element>
+</database>

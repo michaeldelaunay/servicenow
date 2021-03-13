@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition table="x_297381_fffun_now_mind_game">playerDYNAMIC90d1921e5f510100a9ad2572f2b477fe^stateNOT INlost,won^EQ<item endquery="false" field="player" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item display_value="lost,won" endquery="false" field="state" goto="false" newquery="false" operator="NOT IN" or="false" value="lost,won"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description>Allow write for records in x_297381_fffun_now_mind_game, for users with role x_297381_fffun_now.user, and if the ACL condition (playerDYNAMIC90d1921e5f510100a9ad2572f2b477fe^stateNOT INlost,won^EQ) evaluates to true.</description>
+        <name>x_297381_fffun_now_mind_game</name>
+        <operation display_value="list_edit">54f535270a0a0b8c007c67009ab2bdc0</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>mdelaunay</sys_created_by>
+        <sys_created_on>2021-02-12 19:51:31</sys_created_on>
+        <sys_id>4c3bfc6107d62010b264f8ed7c1ed0ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_297381_fffun_now_mind_game</sys_name>
+        <sys_package display_value="FFFun Now" source="x_297381_fffun_now">a536da2d07c22010b264f8ed7c1ed02a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FFFun Now">a536da2d07c22010b264f8ed7c1ed02a</sys_scope>
+        <sys_update_name>sys_security_acl_4c3bfc6107d62010b264f8ed7c1ed0ed</sys_update_name>
+        <sys_updated_by>mdelaunay</sys_updated_by>
+        <sys_updated_on>2021-02-12 19:51:31</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

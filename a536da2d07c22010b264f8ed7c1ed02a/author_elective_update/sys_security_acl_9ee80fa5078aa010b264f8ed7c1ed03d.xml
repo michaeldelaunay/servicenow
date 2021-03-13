@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_297381_fffun_now_mind_code</description>
+        <name>x_297381_fffun_now_mind_code</name>
+        <operation display_value="delete">delete</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>mdelaunay</sys_created_by>
+        <sys_created_on>2021-01-31 19:55:01</sys_created_on>
+        <sys_id>9ee80fa5078aa010b264f8ed7c1ed03d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_297381_fffun_now_mind_code</sys_name>
+        <sys_package display_value="FFFun Now" source="x_297381_fffun_now">a536da2d07c22010b264f8ed7c1ed02a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FFFun Now">a536da2d07c22010b264f8ed7c1ed02a</sys_scope>
+        <sys_update_name>sys_security_acl_9ee80fa5078aa010b264f8ed7c1ed03d</sys_update_name>
+        <sys_updated_by>mdelaunay</sys_updated_by>
+        <sys_updated_on>2021-02-02 21:06:47</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="FFFun Now">a536da2d07c22010b264f8ed7c1ed02a</application>
+        <file_path/>
+        <instance_id>b9fac77edbad77840b9d21c40596191a</instance_id>
+        <instance_name>dev86867</instance_name>
+        <name>sys_security_acl_9ee80fa5078aa010b264f8ed7c1ed03d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_297381_fffun_now_mind_code</description><name>x_297381_fffun_now_mind_code</name><operation display_value="delete">delete</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>mdelaunay</sys_created_by><sys_created_on>2021-01-31 19:55:01</sys_created_on><sys_id>9ee80fa5078aa010b264f8ed7c1ed03d</sys_id><sys_mod_count>2</sys_mod_count><sys_name>x_297381_fffun_now_mind_code</sys_name><sys_package display_value="FFFun Now" source="x_297381_fffun_now">a536da2d07c22010b264f8ed7c1ed02a</sys_package><sys_policy/><sys_scope display_value="FFFun Now">a536da2d07c22010b264f8ed7c1ed02a</sys_scope><sys_update_name>sys_security_acl_9ee80fa5078aa010b264f8ed7c1ed03d</sys_update_name><sys_updated_by>mdelaunay</sys_updated_by><sys_updated_on>2021-02-02 21:06:47</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-1558626149</payload_hash>
+        <record_name>x_297381_fffun_now_mind_code</record_name>
+        <reverted_from/>
+        <source>2936da2d07c22010b264f8ed7c1ed02c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>mdelaunay</sys_created_by>
+        <sys_created_on>2021-02-02 21:06:47</sys_created_on>
+        <sys_id>498cad9e07c22010b264f8ed7c1ed0c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1776491b7520000001</sys_recorded_at>
+        <sys_updated_by>mdelaunay</sys_updated_by>
+        <sys_updated_on>2021-02-02 21:06:47</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>c18cad9e31c2201007119aa839e765c5</update_guid>
+        <update_guid_history>c18cad9e31c2201007119aa839e765c5:-1558626149,c97c619e73c22010f6af878df2e175c6:-1068081854,dee80fa5688aa010ccb5450d5348b13f:-1558626149</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>mdelaunay</sys_created_by>
+        <sys_created_on>2021-02-12 19:38:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>105fe08cc4dc4a40825106bc7edf0e90</sys_id>
+        <sys_metadata>9ee80fa5078aa010b264f8ed7c1ed03d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_297381_fffun_now_mind_code</sys_name>
+        <sys_package display_value="FFFun Now" source="x_297381_fffun_now">a536da2d07c22010b264f8ed7c1ed02a</sys_package>
+        <sys_parent display_value="x_297381_fffun_now_mind_code">1ee80fa5078aa010b264f8ed7c1ed043</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="FFFun Now">a536da2d07c22010b264f8ed7c1ed02a</sys_scope>
+        <sys_scope_delete display_value="">06048c046bfa4e90814bf828e698fb90</sys_scope_delete>
+        <sys_update_name>sys_security_acl_9ee80fa5078aa010b264f8ed7c1ed03d</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_9ee80fa5078aa010b264f8ed7c1ed03d">498cad9e07c22010b264f8ed7c1ed0c5</sys_update_version>
+        <sys_updated_by>mdelaunay</sys_updated_by>
+        <sys_updated_on>2021-02-12 19:38:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>player</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>test</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+	var callerLabel = $('label.x_297381_fffun_now_mind_game.player');
+	var callerField = $('sys_display.x_297381_fffun_now_mind_game.player');
+	
+		callerLabel.setStyle({backgroundImage: ""});
+		callerField.setStyle({color: "red"});
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>mdelaunay</sys_created_by>
+        <sys_created_on>2021-02-17 21:07:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>370c324f07122010b264f8ed7c1ed00e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="FFFun Now" source="x_297381_fffun_now">a536da2d07c22010b264f8ed7c1ed02a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FFFun Now">a536da2d07c22010b264f8ed7c1ed02a</sys_scope>
+        <sys_update_name>sys_script_client_370c324f07122010b264f8ed7c1ed00e</sys_update_name>
+        <sys_updated_by>mdelaunay</sys_updated_by>
+        <sys_updated_on>2021-02-17 21:09:06</sys_updated_on>
+        <table>x_297381_fffun_now_mind_game</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="FFFun Now">a536da2d07c22010b264f8ed7c1ed02a</application>
+        <file_path/>
+        <instance_id>b9fac77edbad77840b9d21c40596191a</instance_id>
+        <instance_name>dev86867</instance_name>
+        <name>sys_script_client_370c324f07122010b264f8ed7c1ed00e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;player&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;test&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+	var callerLabel = $('label.x_297381_fffun_now_mind_game.player');
+	var callerField = $('sys_display.x_297381_fffun_now_mind_game.player');
+	
+		callerLabel.setStyle({backgroundImage: ""});
+		callerField.setStyle({color: "red"});
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mdelaunay&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-17 21:07:20&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;370c324f07122010b264f8ed7c1ed00e&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;test&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="FFFun Now" source="x_297381_fffun_now"&gt;a536da2d07c22010b264f8ed7c1ed02a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="FFFun Now"&gt;a536da2d07c22010b264f8ed7c1ed02a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_370c324f07122010b264f8ed7c1ed00e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;mdelaunay&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-17 21:09:06&lt;/sys_updated_on&gt;&lt;table&gt;x_297381_fffun_now_mind_game&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>510741688</payload_hash>
+        <record_name>test</record_name>
+        <reverted_from/>
+        <source>2936da2d07c22010b264f8ed7c1ed02c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>mdelaunay</sys_created_by>
+        <sys_created_on>2021-02-17 21:09:06</sys_created_on>
+        <sys_id>ddec364f07122010b264f8ed7c1ed001</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177b1d33c4f0000001</sys_recorded_at>
+        <sys_updated_by>mdelaunay</sys_updated_by>
+        <sys_updated_on>2021-02-17 21:09:06</sys_updated_on>
+        <type>Script client</type>
+        <update_guid>59ec364f4a122010b2477decd95f8f01</update_guid>
+        <update_guid_history>59ec364f4a122010b2477decd95f8f01:510741688,6b7cf60fdd12201099140b7d05f86eac:-1821457863</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>mdelaunay</sys_created_by>
+        <sys_created_on>2021-02-17 21:10:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>381389e8364e4878bc6e18e2d3d9d819</sys_id>
+        <sys_metadata>370c324f07122010b264f8ed7c1ed00e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="FFFun Now" source="x_297381_fffun_now">a536da2d07c22010b264f8ed7c1ed02a</sys_package>
+        <sys_parent display_value="Mind Game">7a49de2507862010b264f8ed7c1ed099</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="FFFun Now">a536da2d07c22010b264f8ed7c1ed02a</sys_scope>
+        <sys_scope_delete display_value="">06048c046bfa4e90814bf828e698fb90</sys_scope_delete>
+        <sys_update_name>sys_script_client_370c324f07122010b264f8ed7c1ed00e</sys_update_name>
+        <sys_update_version display_value="sys_script_client_370c324f07122010b264f8ed7c1ed00e">ddec364f07122010b264f8ed7c1ed001</sys_update_version>
+        <sys_updated_by>mdelaunay</sys_updated_by>
+        <sys_updated_on>2021-02-17 21:10:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

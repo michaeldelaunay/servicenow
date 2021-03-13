@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated">
+    <sys_translated action="INSERT_OR_UPDATE">
+        <element>name</element>
+        <id/>
+        <label>Voyons voir...</label>
+        <language>fr</language>
+        <name>sys_ui_action</name>
+        <sys_class_name>sys_translated</sys_class_name>
+        <sys_created_by>mdelaunay</sys_created_by>
+        <sys_created_on>2021-02-05 19:50:57</sys_created_on>
+        <sys_id>67e7f49307c22010b264f8ed7c1ed08e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Voyons voir...</sys_name>
+        <sys_package display_value="FFFun Now" source="x_297381_fffun_now">a536da2d07c22010b264f8ed7c1ed02a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FFFun Now">a536da2d07c22010b264f8ed7c1ed02a</sys_scope>
+        <sys_update_name>sys_translated_67e7f49307c22010b264f8ed7c1ed08e</sys_update_name>
+        <sys_updated_by>mdelaunay</sys_updated_by>
+        <sys_updated_on>2021-02-05 19:50:57</sys_updated_on>
+        <value>Let's see...</value>
+    </sys_translated>
+</record_update>

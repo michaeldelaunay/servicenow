@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>false</active>
+        <admin_overrides>false</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>Allow read for pawn_1 in x_297381_fffun_now_mind_game, if the ACL script returns true.</description>
+        <name>x_297381_fffun_now_mind_game.pawn_1</name>
+        <operation display_value="read">read</operation>
+        <script><![CDATA[answer = !current.isNewRecord();]]></script>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>mdelaunay</sys_created_by>
+        <sys_created_on>2021-01-31 17:45:40</sys_created_on>
+        <sys_id>634b66a507c26010b264f8ed7c1ed0f3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_297381_fffun_now_mind_game.pawn_1</sys_name>
+        <sys_package display_value="FFFun Now" source="x_297381_fffun_now">a536da2d07c22010b264f8ed7c1ed02a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FFFun Now">a536da2d07c22010b264f8ed7c1ed02a</sys_scope>
+        <sys_update_name>sys_security_acl_634b66a507c26010b264f8ed7c1ed0f3</sys_update_name>
+        <sys_updated_by>mdelaunay</sys_updated_by>
+        <sys_updated_on>2021-02-01 12:10:01</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="FFFun Now">a536da2d07c22010b264f8ed7c1ed02a</application>
+        <file_path/>
+        <instance_id>b9fac77edbad77840b9d21c40596191a</instance_id>
+        <instance_name>dev86867</instance_name>
+        <name>sys_security_acl_634b66a507c26010b264f8ed7c1ed0f3</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;admin_overrides&gt;false&lt;/admin_overrides&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;condition/&gt;&lt;description&gt;Allow read for pawn_1 in x_297381_fffun_now_mind_game, if the ACL script returns true.&lt;/description&gt;&lt;name&gt;x_297381_fffun_now_mind_game.pawn_1&lt;/name&gt;&lt;operation display_value="read"&gt;read&lt;/operation&gt;&lt;script&gt;&lt;![CDATA[answer = !current.isNewRecord();]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mdelaunay&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-01-31 17:45:40&lt;/sys_created_on&gt;&lt;sys_id&gt;634b66a507c26010b264f8ed7c1ed0f3&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_297381_fffun_now_mind_game.pawn_1&lt;/sys_name&gt;&lt;sys_package display_value="FFFun Now" source="x_297381_fffun_now"&gt;a536da2d07c22010b264f8ed7c1ed02a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="FFFun Now"&gt;a536da2d07c22010b264f8ed7c1ed02a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_634b66a507c26010b264f8ed7c1ed0f3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;mdelaunay&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-01 12:10:01&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1819960948</payload_hash>
+        <record_name>x_297381_fffun_now_mind_game.pawn_1</record_name>
+        <reverted_from/>
+        <source>2936da2d07c22010b264f8ed7c1ed02c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>mdelaunay</sys_created_by>
+        <sys_created_on>2021-02-01 12:10:01</sys_created_on>
+        <sys_id>6818aefd07822410b264f8ed7c1ed0fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1775d7feff70000001</sys_recorded_at>
+        <sys_updated_by>mdelaunay</sys_updated_by>
+        <sys_updated_on>2021-02-01 12:10:01</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>e018aefd0082241066c8a99bf830a9fc</update_guid>
+        <update_guid_history>e018aefd0082241066c8a99bf830a9fc:-1819960948,2dbb2e6179066010a7bc2e79b7396cb2:-231894235,274b66a5bcc260106f269074db4dcaf5:1624357957</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>mdelaunay</sys_created_by>
+        <sys_created_on>2021-02-12 19:35:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>06abd661d554436288aedf9d0b54db91</sys_id>
+        <sys_metadata>634b66a507c26010b264f8ed7c1ed0f3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_297381_fffun_now_mind_game.pawn_1</sys_name>
+        <sys_package display_value="FFFun Now" source="x_297381_fffun_now">a536da2d07c22010b264f8ed7c1ed02a</sys_package>
+        <sys_parent display_value="x_297381_fffun_now_mind_game">8349166507862010b264f8ed7c1ed0f5</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="FFFun Now">a536da2d07c22010b264f8ed7c1ed02a</sys_scope>
+        <sys_scope_delete display_value="">06048c046bfa4e90814bf828e698fb90</sys_scope_delete>
+        <sys_update_name>sys_security_acl_634b66a507c26010b264f8ed7c1ed0f3</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_634b66a507c26010b264f8ed7c1ed0f3">6818aefd07822410b264f8ed7c1ed0fc</sys_update_version>
+        <sys_updated_by>mdelaunay</sys_updated_by>
+        <sys_updated_on>2021-02-12 19:35:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

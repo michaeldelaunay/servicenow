@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_step">
+    <sys_embedded_tour_step action="INSERT_OR_UPDATE">
+        <action>false</action>
+        <action_event>next</action_event>
+        <action_target/>
+        <action_target_ref display_value="x_297381_fffun_now_mind_game.challenged_">b49f3ca807122010b264f8ed7c1ed092</action_target_ref>
+        <active>true</active>
+        <content><![CDATA[Normalement, c&#39;est vous.]]></content>
+        <guide display_value="Mind Game">f3a73c2407122010b264f8ed7c1ed0f4</guide>
+        <implicit>false</implicit>
+        <link/>
+        <name/>
+        <options>{"step_view":""}</options>
+        <order>11</order>
+        <placement>bottom</placement>
+        <skippable>false</skippable>
+        <step_type>step</step_type>
+        <sys_class_name>sys_embedded_tour_step</sys_class_name>
+        <sys_created_by>mdelaunay</sys_created_by>
+        <sys_created_on>2021-02-09 17:36:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>819f3ca807122010b264f8ed7c1ed094</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="FFFun Now" source="x_297381_fffun_now">a536da2d07c22010b264f8ed7c1ed02a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FFFun Now">a536da2d07c22010b264f8ed7c1ed02a</sys_scope>
+        <sys_update_name>sys_embedded_tour_step_819f3ca807122010b264f8ed7c1ed094</sys_update_name>
+        <sys_updated_by>mdelaunay</sys_updated_by>
+        <sys_updated_on>2021-02-09 17:46:53</sys_updated_on>
+        <target/>
+        <target_ref display_value="x_297381_fffun_now_mind_game.challenged_">b49f3ca807122010b264f8ed7c1ed092</target_ref>
+        <title/>
+        <ui_version>dynamic</ui_version>
+        <view/>
+        <window>x_297381_fffun_now_mind_game.do</window>
+    </sys_embedded_tour_step>
+    <sys_translated_text action="delete_multiple" query="documentkey=819f3ca807122010b264f8ed7c1ed094"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>819f3ca807122010b264f8ed7c1ed094</documentkey>
+        <fieldname>content</fieldname>
+        <language>fr</language>
+        <sys_created_by>mdelaunay</sys_created_by>
+        <sys_created_on>2021-02-09 17:36:46</sys_created_on>
+        <sys_id>c19f3ca807122010b264f8ed7c1ed096</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mdelaunay</sys_updated_by>
+        <sys_updated_on>2021-02-09 17:36:46</sys_updated_on>
+        <tablename>sys_embedded_tour_step</tablename>
+        <value>C&amp;#39;est vous, non ?</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>819f3ca807122010b264f8ed7c1ed094</documentkey>
+        <fieldname>title</fieldname>
+        <language>fr</language>
+        <sys_created_by>mdelaunay</sys_created_by>
+        <sys_created_on>2021-02-09 17:36:46</sys_created_on>
+        <sys_id>c59f3ca807122010b264f8ed7c1ed094</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mdelaunay</sys_updated_by>
+        <sys_updated_on>2021-02-09 17:36:46</sys_updated_on>
+        <tablename>sys_embedded_tour_step</tablename>
+        <value/>
+    </sys_translated_text>
+</record_update>

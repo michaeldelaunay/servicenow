@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style">
+    <sys_ui_style action="INSERT_OR_UPDATE">
+        <alt/>
+        <element>pawn_2</element>
+        <name>x_297381_fffun_now_mind_guess</name>
+        <style>background-color:blue;</style>
+        <sys_class_name>sys_ui_style</sys_class_name>
+        <sys_created_by>mdelaunay</sys_created_by>
+        <sys_created_on>2021-02-01 19:44:00</sys_created_on>
+        <sys_id>aaff04c607c62410b264f8ed7c1ed03c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_297381_fffun_now_mind_guess</sys_name>
+        <sys_package display_value="FFFun Now" source="x_297381_fffun_now">a536da2d07c22010b264f8ed7c1ed02a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FFFun Now">a536da2d07c22010b264f8ed7c1ed02a</sys_scope>
+        <sys_update_name>sys_ui_style_aaff04c607c62410b264f8ed7c1ed03c</sys_update_name>
+        <sys_updated_by>mdelaunay</sys_updated_by>
+        <sys_updated_on>2021-02-01 19:44:00</sys_updated_on>
+        <value>blue</value>
+    </sys_ui_style>
+    <sys_translated_text action="delete_multiple" query="documentkey=aaff04c607c62410b264f8ed7c1ed03c"/>
+</record_update>

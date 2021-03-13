@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_297381_fffun_now_mind_game</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_297381_fffun_now_mind_game">challenged_byNSAMEASplayer^EQ<item endquery="false" field="challenged_by" goto="false" newquery="false" operator="NSAMEAS" or="false" value="player"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Save User Game Code</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    var newCode = new GlideRecord('x_297381_fffun_now_mind_code');
+
+    newCode.initialize();
+	newCode.game = current.sys_id;
+    newCode.pawn_1 = current.pawn_1;
+    newCode.pawn_2 = current.pawn_2;
+    newCode.pawn_3 = current.pawn_3;
+    newCode.pawn_4 = current.pawn_4;
+    newCode.insert();
+	
+	current.pawn_1 = '';
+	current.pawn_2 = '';
+	current.pawn_3 = '';
+	current.pawn_4 = '';
+	
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>mdelaunay</sys_created_by>
+        <sys_created_on>2021-01-31 20:01:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ec7803a1078aa010b264f8ed7c1ed052</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Save User Game Code</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="FFFun Now" source="x_297381_fffun_now">a536da2d07c22010b264f8ed7c1ed02a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FFFun Now">a536da2d07c22010b264f8ed7c1ed02a</sys_scope>
+        <sys_update_name>sys_script_ec7803a1078aa010b264f8ed7c1ed052</sys_update_name>
+        <sys_updated_by>mdelaunay</sys_updated_by>
+        <sys_updated_on>2021-02-05 17:06:25</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=ec7803a1078aa010b264f8ed7c1ed052"/>
+</record_update>

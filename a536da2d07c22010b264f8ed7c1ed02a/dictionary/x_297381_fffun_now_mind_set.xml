@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Mind Set" max_length="40" name="x_297381_fffun_now_mind_set" sizeclass="178" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="colour" choice_table="x_297381_fffun_now_colours" label="Pion 1" max_length="40" name="pawn_1" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="colour" choice_table="x_297381_fffun_now_colours" label="Pion 2" max_length="40" name="pawn_2" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="colour" choice_table="x_297381_fffun_now_colours" label="Pion 3" max_length="40" name="pawn_3" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="colour" choice_table="x_297381_fffun_now_colours" label="Pion 4" max_length="40" name="pawn_4" type="choice">
+            <choice/>
+        </element>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated">
+    <sys_translated action="INSERT_OR_UPDATE">
+        <element>title</element>
+        <id/>
+        <label>Mes Défis</label>
+        <language>fr</language>
+        <name>sys_app_module</name>
+        <sys_class_name>sys_translated</sys_class_name>
+        <sys_created_by>mdelaunay</sys_created_by>
+        <sys_created_on>2021-02-06 10:22:41</sys_created_on>
+        <sys_id>347ff31f07ca2010b264f8ed7c1ed0af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mes Défis</sys_name>
+        <sys_package display_value="FFFun Now" source="x_297381_fffun_now">a536da2d07c22010b264f8ed7c1ed02a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FFFun Now">a536da2d07c22010b264f8ed7c1ed02a</sys_scope>
+        <sys_update_name>sys_translated_347ff31f07ca2010b264f8ed7c1ed0af</sys_update_name>
+        <sys_updated_by>mdelaunay</sys_updated_by>
+        <sys_updated_on>2021-02-06 10:22:41</sys_updated_on>
+        <value>My Challenges</value>
+    </sys_translated>
+</record_update>

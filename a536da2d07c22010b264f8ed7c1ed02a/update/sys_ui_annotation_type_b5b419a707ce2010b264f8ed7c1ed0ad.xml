@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_annotation_type">
+    <sys_ui_annotation_type action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <name>FFFun Now Title</name>
+        <omit_spacer>false</omit_spacer>
+        <style>font-size: 24px;color: white;text-align: center;background-color: blue;border-radius: 4px;margin: 50px;border:2px solid mediumblue;</style>
+        <sys_class_name>sys_ui_annotation_type</sys_class_name>
+        <sys_created_by>mdelaunay</sys_created_by>
+        <sys_created_on>2021-02-06 16:35:12</sys_created_on>
+        <sys_id>b5b419a707ce2010b264f8ed7c1ed0ad</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>FFFun Now Title</sys_name>
+        <sys_package display_value="FFFun Now" source="x_297381_fffun_now">a536da2d07c22010b264f8ed7c1ed02a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FFFun Now">a536da2d07c22010b264f8ed7c1ed02a</sys_scope>
+        <sys_update_name>sys_ui_annotation_type_b5b419a707ce2010b264f8ed7c1ed0ad</sys_update_name>
+        <sys_updated_by>mdelaunay</sys_updated_by>
+        <sys_updated_on>2021-02-13 20:31:02</sys_updated_on>
+    </sys_ui_annotation_type>
+</record_update>

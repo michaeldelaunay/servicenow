@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="colour" table="x_297381_fffun_now_colours" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>colour</element>
+            <name>x_297381_fffun_now_colours</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>mdelaunay</sys_created_by>
+            <sys_created_on>2021-01-31 16:59:41</sys_created_on>
+            <sys_id>06c0262907ca2010b264f8ed7c1ed04e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>colour</sys_name>
+            <sys_package display_value="FFFun Now" source="x_297381_fffun_now">a536da2d07c22010b264f8ed7c1ed02a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="FFFun Now">a536da2d07c22010b264f8ed7c1ed02a</sys_scope>
+            <sys_update_name>sys_choice_x_297381_fffun_now_colours_colour</sys_update_name>
+            <sys_updated_by>mdelaunay</sys_updated_by>
+            <sys_updated_on>2021-01-31 16:59:41</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>colour</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Red</label>
+            <language>en</language>
+            <name>x_297381_fffun_now_colours</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>mdelaunay</sys_created_by>
+            <sys_created_on>2021-01-31 16:59:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d5b0ea2907ca2010b264f8ed7c1ed05d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>mdelaunay</sys_updated_by>
+            <sys_updated_on>2021-02-04 18:35:42</sys_updated_on>
+            <value>red</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>colour</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rouge</label>
+            <language>fr</language>
+            <name>x_297381_fffun_now_colours</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>mdelaunay</sys_created_by>
+            <sys_created_on>2021-02-05 20:21:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eebe3c1b07c22010b264f8ed7c1ed083</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mdelaunay</sys_updated_by>
+            <sys_updated_on>2021-02-05 20:21:03</sys_updated_on>
+            <value>red</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>colour</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bleu</label>
+            <language>fr</language>
+            <name>x_297381_fffun_now_colours</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>mdelaunay</sys_created_by>
+            <sys_created_on>2021-02-05 20:21:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2deef8d707c22010b264f8ed7c1ed0dd</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>mdelaunay</sys_updated_by>
+            <sys_updated_on>2021-02-05 20:24:02</sys_updated_on>
+            <value>blue</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>colour</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Blue</label>
+            <language>en</language>
+            <name>x_297381_fffun_now_colours</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>mdelaunay</sys_created_by>
+            <sys_created_on>2021-01-31 16:59:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1ed0ae6507ca2010b264f8ed7c1ed0d3</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>mdelaunay</sys_updated_by>
+            <sys_updated_on>2021-02-04 18:35:48</sys_updated_on>
+            <value>blue</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>colour</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Green</label>
+            <language>en</language>
+            <name>x_297381_fffun_now_colours</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>mdelaunay</sys_created_by>
+            <sys_created_on>2021-01-31 17:00:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>32e0ea2907ca2010b264f8ed7c1ed061</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>mdelaunay</sys_updated_by>
+            <sys_updated_on>2021-02-04 18:35:53</sys_updated_on>
+            <value>green</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>colour</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Vert</label>
+            <language>fr</language>
+            <name>x_297381_fffun_now_colours</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>mdelaunay</sys_created_by>
+            <sys_created_on>2021-02-05 20:21:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4afe38d707c22010b264f8ed7c1ed0ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mdelaunay</sys_updated_by>
+            <sys_updated_on>2021-02-05 20:21:43</sys_updated_on>
+            <value>green</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>colour</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Jaune</label>
+            <language>fr</language>
+            <name>x_297381_fffun_now_colours</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>mdelaunay</sys_created_by>
+            <sys_created_on>2021-02-05 20:22:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>be0f38d707c22010b264f8ed7c1ed0ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mdelaunay</sys_updated_by>
+            <sys_updated_on>2021-02-05 20:22:02</sys_updated_on>
+            <value>yellow</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>colour</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yellow</label>
+            <language>en</language>
+            <name>x_297381_fffun_now_colours</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>mdelaunay</sys_created_by>
+            <sys_created_on>2021-01-31 17:01:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9d11e26d07ca2010b264f8ed7c1ed0f2</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>mdelaunay</sys_updated_by>
+            <sys_updated_on>2021-02-04 18:35:59</sys_updated_on>
+            <value>yellow</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>colour</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Orange</label>
+            <language>fr</language>
+            <name>x_297381_fffun_now_colours</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>mdelaunay</sys_created_by>
+            <sys_created_on>2021-02-05 20:22:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a31f705b07c22010b264f8ed7c1ed030</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mdelaunay</sys_updated_by>
+            <sys_updated_on>2021-02-05 20:22:22</sys_updated_on>
+            <value>orange</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>colour</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Orange</label>
+            <language>en</language>
+            <name>x_297381_fffun_now_colours</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>mdelaunay</sys_created_by>
+            <sys_created_on>2021-01-31 17:01:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f941a225074a2010b264f8ed7c1ed074</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>mdelaunay</sys_updated_by>
+            <sys_updated_on>2021-02-04 18:36:03</sys_updated_on>
+            <value>orange</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>colour</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pink</label>
+            <language>en</language>
+            <name>x_297381_fffun_now_colours</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>mdelaunay</sys_created_by>
+            <sys_created_on>2021-01-31 17:02:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6e5166a5078a2010b264f8ed7c1ed014</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>mdelaunay</sys_updated_by>
+            <sys_updated_on>2021-02-04 18:36:08</sys_updated_on>
+            <value>pink</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>colour</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rose</label>
+            <language>fr</language>
+            <name>x_297381_fffun_now_colours</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>mdelaunay</sys_created_by>
+            <sys_created_on>2021-02-05 20:22:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9f2f78d707c22010b264f8ed7c1ed008</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mdelaunay</sys_updated_by>
+            <sys_updated_on>2021-02-05 20:22:37</sys_updated_on>
+            <value>pink</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>colour</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Grey</label>
+            <language>en</language>
+            <name>x_297381_fffun_now_colours</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>mdelaunay</sys_created_by>
+            <sys_created_on>2021-01-31 17:03:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>61a126e9070e2010b264f8ed7c1ed08e</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>mdelaunay</sys_updated_by>
+            <sys_updated_on>2021-02-04 18:36:13</sys_updated_on>
+            <value>grey</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>colour</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Gris</label>
+            <language>fr</language>
+            <name>x_297381_fffun_now_colours</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>mdelaunay</sys_created_by>
+            <sys_created_on>2021-02-05 20:22:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>544fb05b07c22010b264f8ed7c1ed0b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mdelaunay</sys_updated_by>
+            <sys_updated_on>2021-02-05 20:22:58</sys_updated_on>
+            <value>grey</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>colour</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Purple</label>
+            <language>en</language>
+            <name>x_297381_fffun_now_colours</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>mdelaunay</sys_created_by>
+            <sys_created_on>2021-01-31 17:06:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4152e6ad074e2010b264f8ed7c1ed0a9</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>mdelaunay</sys_updated_by>
+            <sys_updated_on>2021-02-04 18:36:19</sys_updated_on>
+            <value>purple</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>colour</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Violet</label>
+            <language>fr</language>
+            <name>x_297381_fffun_now_colours</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>mdelaunay</sys_created_by>
+            <sys_created_on>2021-02-05 20:23:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6f5ff81b07c22010b264f8ed7c1ed0fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mdelaunay</sys_updated_by>
+            <sys_updated_on>2021-02-05 20:23:28</sys_updated_on>
+            <value>purple</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

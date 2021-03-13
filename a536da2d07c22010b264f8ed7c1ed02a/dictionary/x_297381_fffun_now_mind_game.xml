@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="x_297381_fffun_now_mind_set" label="Mind Game" max_length="40" name="x_297381_fffun_now_mind_game" sizeclass="47" type="collection">
+        <element attributes="encode_utf8=false" default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Challenged by" max_length="32" name="challenged_by" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Partie" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="encode_utf8=false" default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Player" max_length="32" name="player" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="new" label="State" max_length="40" name="state" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Au début" language="fr" sequence="0" value="new"/>
+                <element inactive_on_update="false" label="New" sequence="0" value="new"/>
+                <element inactive_on_update="false" label="In progress" sequence="1" value="in_progress"/>
+                <element inactive_on_update="false" label="La partie est en cours" language="fr" sequence="1" value="in_progress"/>
+                <element inactive_on_update="false" label="La partie est perdue" language="fr" sequence="2" value="lost"/>
+                <element inactive_on_update="false" label="Lost" sequence="2" value="lost"/>
+                <element inactive_on_update="false" label="La partie est gagnée" language="fr" sequence="3" value="won"/>
+                <element inactive_on_update="false" label="Won" sequence="3" value="won"/>
+            </choice>
+        </element>
+        <element default="&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18pt; font-family: tahoma, arial, helvetica, sans-serif; color: firebrick;&quot;&gt;Dommage !&lt;/span&gt;&lt;/p&gt;" label="Vous avez perdu" max_length="65536" name="you_have_lost" read_only="true" type="html"/>
+        <element default="&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18pt; font-family: tahoma, arial, helvetica, sans-serif; color: firebrick;&quot;&gt;Bravo !&lt;/span&gt;&lt;/p&gt;" label="You have won" max_length="65536" name="you_have_won" read_only="true" type="html"/>
+        <index name="index">
+            <element name="challenged_by"/>
+        </index>
+        <index name="index2">
+            <element name="player"/>
+        </index>
+    </element>
+</database>

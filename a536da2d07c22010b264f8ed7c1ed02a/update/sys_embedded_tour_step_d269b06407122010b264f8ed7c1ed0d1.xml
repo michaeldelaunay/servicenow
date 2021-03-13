@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_step">
+    <sys_embedded_tour_step action="INSERT_OR_UPDATE">
+        <action>false</action>
+        <action_event>next</action_event>
+        <action_target/>
+        <action_target_ref display_value="Filter Navigator">5669b06407122010b264f8ed7c1ed0ce</action_target_ref>
+        <active>true</active>
+        <content><![CDATA[Tapez fff ici pour ouvrir l&#39;application qui, je n&#39;en doute pas, pique déjà votre curiosité.]]></content>
+        <guide display_value="Mind Game">f3a73c2407122010b264f8ed7c1ed0f4</guide>
+        <implicit>false</implicit>
+        <link/>
+        <name/>
+        <options>{"step_view":""}</options>
+        <order>1</order>
+        <placement>right</placement>
+        <skippable>false</skippable>
+        <step_type>step</step_type>
+        <sys_class_name>sys_embedded_tour_step</sys_class_name>
+        <sys_created_by>mdelaunay</sys_created_by>
+        <sys_created_on>2021-02-09 17:09:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d269b06407122010b264f8ed7c1ed0d1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="FFFun Now" source="x_297381_fffun_now">a536da2d07c22010b264f8ed7c1ed02a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FFFun Now">a536da2d07c22010b264f8ed7c1ed02a</sys_scope>
+        <sys_update_name>sys_embedded_tour_step_d269b06407122010b264f8ed7c1ed0d1</sys_update_name>
+        <sys_updated_by>mdelaunay</sys_updated_by>
+        <sys_updated_on>2021-02-09 18:07:32</sys_updated_on>
+        <target/>
+        <target_ref display_value="Filter Navigator">5669b06407122010b264f8ed7c1ed0ce</target_ref>
+        <title/>
+        <ui_version>dynamic</ui_version>
+        <view/>
+        <window>nav_to.do</window>
+    </sys_embedded_tour_step>
+    <sys_translated_text action="delete_multiple" query="documentkey=d269b06407122010b264f8ed7c1ed0d1"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>d269b06407122010b264f8ed7c1ed0d1</documentkey>
+        <fieldname>content</fieldname>
+        <language>fr</language>
+        <sys_created_by>mdelaunay</sys_created_by>
+        <sys_created_on>2021-02-09 17:09:50</sys_created_on>
+        <sys_id>5669b06407122010b264f8ed7c1ed0d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mdelaunay</sys_updated_by>
+        <sys_updated_on>2021-02-09 17:09:50</sys_updated_on>
+        <tablename>sys_embedded_tour_step</tablename>
+        <value>Tapez fff ici, mais si  vous effectuez la visite guidée, il y a fort à parier que  vous êtes déjà passés par là. Bref passons à l&amp;#39;étape suivante</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>d269b06407122010b264f8ed7c1ed0d1</documentkey>
+        <fieldname>title</fieldname>
+        <language>fr</language>
+        <sys_created_by>mdelaunay</sys_created_by>
+        <sys_created_on>2021-02-09 17:09:50</sys_created_on>
+        <sys_id>1a69b06407122010b264f8ed7c1ed0d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mdelaunay</sys_updated_by>
+        <sys_updated_on>2021-02-09 17:09:50</sys_updated_on>
+        <tablename>sys_embedded_tour_step</tablename>
+        <value/>
+    </sys_translated_text>
+</record_update>

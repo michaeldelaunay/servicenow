@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_step">
+    <sys_embedded_tour_step action="INSERT_OR_UPDATE">
+        <action>false</action>
+        <action_event>next</action_event>
+        <action_target/>
+        <action_target_ref display_value="x_297381_fffun_now_mind_game.pawn_3">a33281e807122010b264f8ed7c1ed044</action_target_ref>
+        <active>true</active>
+        <content><![CDATA[là,]]></content>
+        <guide display_value="Mind Game">f3a73c2407122010b264f8ed7c1ed0f4</guide>
+        <implicit>false</implicit>
+        <link/>
+        <name/>
+        <options>{"step_view":""}</options>
+        <order>14</order>
+        <placement>bottom</placement>
+        <skippable>false</skippable>
+        <step_type>step</step_type>
+        <sys_class_name>sys_embedded_tour_step</sys_class_name>
+        <sys_created_by>mdelaunay</sys_created_by>
+        <sys_created_on>2021-02-09 17:48:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>af3281e807122010b264f8ed7c1ed045</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="FFFun Now" source="x_297381_fffun_now">a536da2d07c22010b264f8ed7c1ed02a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FFFun Now">a536da2d07c22010b264f8ed7c1ed02a</sys_scope>
+        <sys_update_name>sys_embedded_tour_step_af3281e807122010b264f8ed7c1ed045</sys_update_name>
+        <sys_updated_by>mdelaunay</sys_updated_by>
+        <sys_updated_on>2021-02-09 17:48:25</sys_updated_on>
+        <target/>
+        <target_ref display_value="x_297381_fffun_now_mind_game.pawn_3">a33281e807122010b264f8ed7c1ed044</target_ref>
+        <title/>
+        <ui_version>dynamic</ui_version>
+        <view/>
+        <window>x_297381_fffun_now_mind_game.do</window>
+    </sys_embedded_tour_step>
+    <sys_translated_text action="delete_multiple" query="documentkey=af3281e807122010b264f8ed7c1ed045"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>af3281e807122010b264f8ed7c1ed045</documentkey>
+        <fieldname>content</fieldname>
+        <language>fr</language>
+        <sys_created_by>mdelaunay</sys_created_by>
+        <sys_created_on>2021-02-09 17:48:25</sys_created_on>
+        <sys_id>ef3281e807122010b264f8ed7c1ed047</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mdelaunay</sys_updated_by>
+        <sys_updated_on>2021-02-09 17:48:25</sys_updated_on>
+        <tablename>sys_embedded_tour_step</tablename>
+        <value>là,</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>af3281e807122010b264f8ed7c1ed045</documentkey>
+        <fieldname>title</fieldname>
+        <language>fr</language>
+        <sys_created_by>mdelaunay</sys_created_by>
+        <sys_created_on>2021-02-09 17:48:25</sys_created_on>
+        <sys_id>e33281e807122010b264f8ed7c1ed046</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mdelaunay</sys_updated_by>
+        <sys_updated_on>2021-02-09 17:48:25</sys_updated_on>
+        <tablename>sys_embedded_tour_step</tablename>
+        <value/>
+    </sys_translated_text>
+</record_update>

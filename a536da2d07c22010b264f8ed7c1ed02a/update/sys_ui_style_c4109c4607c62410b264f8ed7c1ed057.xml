@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style">
+    <sys_ui_style action="INSERT_OR_UPDATE">
+        <alt/>
+        <element>pawn_1</element>
+        <name>x_297381_fffun_now_mind_guess</name>
+        <style>background-color:lightgreen;&#13;
+</style>
+        <sys_class_name>sys_ui_style</sys_class_name>
+        <sys_created_by>mdelaunay</sys_created_by>
+        <sys_created_on>2021-02-01 19:44:23</sys_created_on>
+        <sys_id>c4109c4607c62410b264f8ed7c1ed057</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>x_297381_fffun_now_mind_guess</sys_name>
+        <sys_package display_value="FFFun Now" source="x_297381_fffun_now">a536da2d07c22010b264f8ed7c1ed02a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FFFun Now">a536da2d07c22010b264f8ed7c1ed02a</sys_scope>
+        <sys_update_name>sys_ui_style_c4109c4607c62410b264f8ed7c1ed057</sys_update_name>
+        <sys_updated_by>mdelaunay</sys_updated_by>
+        <sys_updated_on>2021-02-05 20:30:51</sys_updated_on>
+        <value>green</value>
+    </sys_ui_style>
+    <sys_translated_text action="delete_multiple" query="documentkey=c4109c4607c62410b264f8ed7c1ed057"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>c4109c4607c62410b264f8ed7c1ed057</documentkey>
+        <fieldname>alt</fieldname>
+        <language>fr</language>
+        <sys_created_by>mdelaunay</sys_created_by>
+        <sys_created_on>2021-02-05 20:30:51</sys_created_on>
+        <sys_id>f301099b07c22010b264f8ed7c1ed085</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mdelaunay</sys_updated_by>
+        <sys_updated_on>2021-02-05 20:30:51</sys_updated_on>
+        <tablename>sys_ui_style</tablename>
+        <value/>
+    </sys_translated_text>
+</record_update>

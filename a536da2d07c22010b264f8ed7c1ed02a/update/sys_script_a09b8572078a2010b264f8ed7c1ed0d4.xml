@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_297381_fffun_now_mind_game</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_297381_fffun_now_mind_game">challenged_bySAMEASplayer^EQ<item endquery="false" field="challenged_by" goto="false" newquery="false" operator="SAMEAS" or="false" value="player"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Save Random Game Code</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    var colours = ["red", "blue", "green", "yellow", "orange", "pink", "grey", "purple"];
+    var code = [];
+    var codeString = code.join();
+    var pawn;
+
+    var i = 0;
+
+    while (code.length < 4 && i < 100) {
+        pawn = Math.floor(Math.random() * 10);
+        if (pawn < 8 && codeString.indexOf(pawn.toString())==-1) code.push(pawn);
+        codeString = code.join();
+		i+=1;
+    }
+
+    var newCode = new GlideRecord('x_297381_fffun_now_mind_code');
+
+    newCode.initialize();
+    newCode.game = current.sys_id;
+    newCode.pawn_1 = colours[code[0]];
+    newCode.pawn_2 = colours[code[1]];
+    newCode.pawn_3 = colours[code[2]];
+    newCode.pawn_4 = colours[code[3]];
+    newCode.insert();
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>mdelaunay</sys_created_by>
+        <sys_created_on>2021-02-04 07:59:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a09b8572078a2010b264f8ed7c1ed0d4</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>Save Random Game Code</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="FFFun Now" source="x_297381_fffun_now">a536da2d07c22010b264f8ed7c1ed02a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FFFun Now">a536da2d07c22010b264f8ed7c1ed02a</sys_scope>
+        <sys_update_name>sys_script_a09b8572078a2010b264f8ed7c1ed0d4</sys_update_name>
+        <sys_updated_by>mdelaunay</sys_updated_by>
+        <sys_updated_on>2021-02-05 21:10:02</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=a09b8572078a2010b264f8ed7c1ed0d4"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>a09b8572078a2010b264f8ed7c1ed0d4</documentkey>
+        <fieldname>message</fieldname>
+        <language>fr</language>
+        <sys_created_by>mdelaunay</sys_created_by>
+        <sys_created_on>2021-02-05 21:10:02</sys_created_on>
+        <sys_id>b90ac95307062010b264f8ed7c1ed0df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mdelaunay</sys_updated_by>
+        <sys_updated_on>2021-02-05 21:10:02</sys_updated_on>
+        <tablename>sys_script</tablename>
+        <value/>
+    </sys_translated_text>
+</record_update>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="x_297381_fffun_now_mind_set" label="Mind Guess" max_length="40" name="x_297381_fffun_now_mind_guess" sizeclass="78" type="collection">
+        <element attributes="encode_utf8=false" label="Partie" max_length="32" name="game" reference="x_297381_fffun_now_mind_game" type="reference"/>
+        <element label="De la bonne couleur" max_length="40" name="right_colour" type="integer"/>
+        <element label="A la bonne place" max_length="40" name="right_place" type="integer"/>
+        <index name="index">
+            <element name="game"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_297381_fffun_now_mind_game</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Save Game Guess</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    var pawnArray = [];
+
+    var gameCode = new GlideRecord('x_297381_fffun_now_mind_code');
+    gameCode.addQuery('game', current.sys_id);
+    gameCode.query();
+
+    if (gameCode.next()) {
+        pawnArray.push(gameCode.pawn_1);
+        pawnArray.push(gameCode.pawn_2);
+        pawnArray.push(gameCode.pawn_3);
+        pawnArray.push(gameCode.pawn_4);
+    }
+	gs.info(pawnArray,"MDE");
+
+    var newGuess = new GlideRecord('x_297381_fffun_now_mind_guess');
+	newGuess.initialize();
+	
+	var rightPlace = 0;
+	var rightColour = 0;
+	
+	var pawns = pawnArray.join();
+	
+    if (current.pawn_1 == pawnArray[0]) rightPlace += 1;
+	else if(pawns.indexOf(current.pawn_1)>-1) rightColour += 1;
+	
+    if (current.pawn_2 == pawnArray[1]) rightPlace += 1;
+	else if(pawns.indexOf(current.pawn_2)>-1) rightColour += 1;
+	
+    if (current.pawn_3 == pawnArray[2]) rightPlace += 1;
+	else if(pawns.indexOf(current.pawn_3)>-1) rightColour += 1;
+
+    if (current.pawn_4 == pawnArray[3]) rightPlace += 1;
+	else if(pawns.indexOf(current.pawn_4)>-1) rightColour += 1;
+    
+	newGuess.right_place = rightPlace;
+	newGuess.right_colour = rightColour;	
+	newGuess.game = current.sys_id;
+    newGuess.pawn_1 = current.pawn_1;
+    newGuess.pawn_2 = current.pawn_2;
+    newGuess.pawn_3 = current.pawn_3;
+    newGuess.pawn_4 = current.pawn_4;
+    newGuess.insert();
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>mdelaunay</sys_created_by>
+        <sys_created_on>2021-01-31 20:01:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>937a8fa507caa010b264f8ed7c1ed0c9</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Save Game Guess</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="FFFun Now" source="x_297381_fffun_now">a536da2d07c22010b264f8ed7c1ed02a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FFFun Now">a536da2d07c22010b264f8ed7c1ed02a</sys_scope>
+        <sys_update_name>sys_script_937a8fa507caa010b264f8ed7c1ed0c9</sys_update_name>
+        <sys_updated_by>mdelaunay</sys_updated_by>
+        <sys_updated_on>2021-02-03 19:08:37</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=937a8fa507caa010b264f8ed7c1ed0c9"/>
+</record_update>
